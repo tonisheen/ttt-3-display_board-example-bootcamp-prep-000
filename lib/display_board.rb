@@ -4,5 +4,12 @@ def display_board
   col_sep = "|"
   row_sep = "-" * 11
   row = cell + col_sep + cell + col_sep + cell
-  
+  puts row
+  puts row_sep
+  puts row
+  puts row_sep
+  puts row
+end
+
+display_board
   
